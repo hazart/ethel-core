@@ -1,0 +1,16 @@
+.next
+coverage/
+node_modules
+.env
+dist/
+public/
+/src/static/
+.DS_Store
+.vscode
+todelete
+*.todelete
+*.log
+/server.dev.js
+test-report.xml
+robots.txt
+sitemap.xml
