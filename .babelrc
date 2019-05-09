@@ -1,0 +1,22 @@
+{
+  "presets": [
+    "next/babel",
+    "es2015",
+    "stage-3",
+    "react"
+  ],
+  "plugins": [
+    ["transform-define", "./env-config.js"]
+  ],
+  "env": {
+    "development": {
+      "presets": []
+    },
+    "test": {
+      "presets": [
+        ["env", { "modules": "commonjs" }],
+        "next/babel"
+      ]
+    }
+  }
+}
